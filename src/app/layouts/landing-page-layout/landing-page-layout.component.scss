@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+app-cabecalho {
+  flex: 0 0 auto; /* O cabeçalho ocupa apenas o espaço necessário */
+}
+
+.body {
+  flex: 1 1 auto; /* O conteúdo ocupa o espaço restante */
+  overflow: auto; /* Permite rolagem se o conteúdo transbordar */
+}
