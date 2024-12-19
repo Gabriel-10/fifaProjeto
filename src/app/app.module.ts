@@ -14,6 +14,7 @@ import { RushComponent } from './components/rush/rush.component';
 import { RushViewComponent } from './views/rush-view/rush-view.component';
 import { RivalsComponent } from './components/rivals/rivals.component';
 import { RivalsViewComponent } from './views/rivals-view/rivals-view.component';
+import { CardAcessoRapidoComponent } from './components/card-acesso-rapido/card-acesso-rapido.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { RivalsViewComponent } from './views/rivals-view/rivals-view.component';
     RushViewComponent,
     RivalsComponent,
     RivalsViewComponent,
+    CardAcessoRapidoComponent,
   ],
   imports: [
     BrowserModule,
