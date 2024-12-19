@@ -1,34 +1,6 @@
-:host {
-  display: block;
-  position: fixed;
+/* Opcional: Estilos adicionais para o cabeçalho */
+.navbar {
+  position: sticky;
   top: 0;
-  left: 0; /* Adicione esta linha para garantir que o cabeçalho comece na esquerda */
-  width: 100%;
-  z-index: 1000;
-}
-
-nav {
-  background-color: #333;
-  padding: 1rem;
-  margin: 0; /* Certifique-se de que não há margem */
-
-  ul {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-    margin: 0;
-    padding: 0;
-
-    li {
-      a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+  z-index: 1030;
 }

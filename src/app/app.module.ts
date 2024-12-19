@@ -8,6 +8,10 @@ import { CabecalhoViewComponent } from './views/cabecalho-view/cabecalho-view.co
 import { SBCViewComponent } from './views/sbc-view/sbc-view.component';
 import { SBCComponent } from './components/sbc/sbc.component';
 import { LandingPageLayoutComponent } from './layouts/landing-page-layout/landing-page-layout.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { InicioViewComponent } from './views/inicio-view/inicio-view.component';
+import { RushComponent } from './components/rush/rush.component';
+import { RushViewComponent } from './views/rush-view/rush-view.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { LandingPageLayoutComponent } from './layouts/landing-page-layout/landin
     SBCViewComponent,
     SBCComponent,
     LandingPageLayoutComponent,
+    InicioComponent,
+    InicioViewComponent,
+    RushComponent,
+    RushViewComponent,
   ],
   imports: [
     BrowserModule,
