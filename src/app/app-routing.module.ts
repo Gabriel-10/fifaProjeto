@@ -5,6 +5,8 @@ import { LandingPageLayoutComponent } from './layouts/landing-page-layout/landin
 import {InicioViewComponent} from "./views/inicio-view/inicio-view.component";
 import {RushViewComponent} from "./views/rush-view/rush-view.component";
 import {RivalsViewComponent} from "./views/rivals-view/rivals-view.component";
+import {FutChampionsViewComponent} from "./views/fut-champions-view/fut-champions-view.component";
+import {ObjetivosViewComponent} from "./views/objetivos-view/objetivos-view.component";
 
 const routes: Routes = [
   {
@@ -15,6 +17,8 @@ const routes: Routes = [
       { path: 'inicio', component: InicioViewComponent },
       { path: 'rush', component: RushViewComponent },
       { path: 'rivals', component: RivalsViewComponent },
+      { path: 'futchampions', component: FutChampionsViewComponent },
+      { path: 'objetivos', component: ObjetivosViewComponent },
     ]
   }
 ];

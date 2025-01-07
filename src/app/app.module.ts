@@ -15,6 +15,10 @@ import { RushViewComponent } from './views/rush-view/rush-view.component';
 import { RivalsComponent } from './components/rivals/rivals.component';
 import { RivalsViewComponent } from './views/rivals-view/rivals-view.component';
 import { CardAcessoRapidoComponent } from './components/card-acesso-rapido/card-acesso-rapido.component';
+import { FutChampionsComponent } from './components/fut-champions/fut-champions.component';
+import { FutChampionsViewComponent } from './views/fut-champions-view/fut-champions-view.component';
+import { ObjetivosComponent } from './components/objetivos/objetivos.component';
+import { ObjetivosViewComponent } from './views/objetivos-view/objetivos-view.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +35,10 @@ import { CardAcessoRapidoComponent } from './components/card-acesso-rapido/card-
     RivalsComponent,
     RivalsViewComponent,
     CardAcessoRapidoComponent,
+    FutChampionsComponent,
+    FutChampionsViewComponent,
+    ObjetivosComponent,
+    ObjetivosViewComponent,
   ],
   imports: [
     BrowserModule,
